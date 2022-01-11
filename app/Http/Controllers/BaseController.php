@@ -94,6 +94,7 @@ class BaseController extends Controller
             'namaBarang' => $input['nama_barang'],
             'deskripsiBarang' => $input['deskripsi_barang'],
             'tanggalBarang' => $input['tanggal_barang'],
+            'idGudang' => $input['id_gudang'] 
             'id_user' => $id
         ]);
         return response()->json("updated", 200); 
